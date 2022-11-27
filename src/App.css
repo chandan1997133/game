@@ -1,0 +1,95 @@
+.App {
+
+  background: rgba(0, 0, 0, 0.7) url(./image/background.webp);
+  background-size: cover;
+
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:White;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: auto;
+  max-width: 100%;
+  height: 120%;
+}
+
+.fhalf {
+  width: 60%;
+  justify-content: left;
+}
+
+.shalf {
+  display: flex;
+  width: 40%;
+  margin-right: 50px;
+
+
+}
+
+.fhalf img {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  width: 400.06px;
+  height: 400px;
+  left: 100px;
+  top: 100px;
+
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url(./image/background.webp);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.mainPage{
+  background: rgba(0, 0, 0, 0.7) url(./image/background.webp);
+  background-size: cover;
+}
+
+.winnnerGame{
+  background: rgba(0, 0, 0, 0.7) url(./image/fireworks-party-on-new-year-celebration-free-vector.webp);
+  background-size: cover;
+}
+
+.btn {
+  width: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:white;
+  height: 25px;
+}
+.copybtn{
+  background-color: green;
+}
+
+@media only screen and (max-width: 760px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 100%;
+    
+}
+.fhalf {
+  width: auto;
+  justify-content: left;
+ 
+}
+.fhalf img {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  width: 300.06px;
+  height: 300px;
+  left: 100px;
+  top: 100px;
+
+}
+
+  }
